@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 300px;
+    padding: 20px;
+  }
+  
+  #tab-manager {
+    text-align: center;
+  }
+  
+  #date-time {
+    margin-bottom: 20px;
+  }
+  
+  #date, #time {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  #tabs-container {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .tab {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .tab-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 200px;
+  }
+  
+  .tab button {
+    margin-left: 10px;
+  }
+  
